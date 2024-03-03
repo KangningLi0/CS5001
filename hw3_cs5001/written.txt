@@ -1,0 +1,21 @@
+1A
+The loop is not infinite. No error.
+Down below will be printed to the terminal:
+Danger, Will Robinson!
+Danger, Will Robinson!
+Danger, Will Robinson!
+
+1B
+The loop is not infinite. No error.
+Nothing will be printed to the terminal.
+
+1C
+The loop is infinite. No error.
+The teriminal will print "Jupiter-2 " endlessly.
+
+2A
+Option 1
+
+2B
+2. It thinks good inputs (like "Sat" are invalid)
+

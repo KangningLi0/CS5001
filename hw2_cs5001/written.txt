@@ -1,0 +1,38 @@
+Written #1
+1A:	print_formatted("one string")
+1B:	max_num = get_max(a, b)
+1C:	num = log_base_two(a)
+
+Written #2
+The reason is the function divide(x, y) had already returned value, 
+which means the function ended. What indented and under the returned line will 
+never get executed.
+
+Written #3
+3A:	
+19
+19
+
+3B:
+19
+19
+20
+
+Written #4
+The first function is better than the second function.
+Since the first function return a value, but the second function not.
+By the way, the second function print value in the function, which is highly
+unrecommended.
+
+
+Written #5
+5A:
+def divide(x: float, y: float) -> float:
+	x = x + 5
+	return x / y
+
+5B:
+Python annotation will give programmer explicit information about what is the 
+type of each parameter of the input and output of a function.
+
+

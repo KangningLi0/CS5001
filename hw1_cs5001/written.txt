@@ -1,0 +1,14 @@
+Written #1
+1A	float  (numeric types)
+2B	int    (numeric types)
+3C	float  (numeric types)
+4D	str    (sequence types)
+5E	str    (sequence types)
+
+written #2
+2A	1.4
+2B	1.4
+2C	1
+2D	2
+2E	1
+

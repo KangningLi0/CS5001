@@ -1,0 +1,106 @@
+import turtle
+
+def draw_square(x, y):
+    # function to draw square at (x, y)
+    turtle.pencolor("brown")
+    turtle.penup()
+    turtle.forward(x)
+    turtle.left(90)
+    turtle.forward(y)
+    turtle.right(180)
+    turtle.forward(40)
+    turtle.pendown()
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.penup()
+    turtle.home()
+
+def draw_circle(x, y):
+    # function to draw circle at (x, y)
+    turtle.penup()
+    turtle.forward(x)
+    turtle.left(90)
+    turtle.forward(y)
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.left(90)
+    turtle.pendown()
+    turtle.pencolor("blue")
+    turtle.circle(40)
+    turtle.penup()
+    turtle.home()
+
+def draw_box(x, y):
+    # function to draw box at (x, y)
+    turtle.penup()
+    turtle.forward(x)
+    turtle.left(90)
+    turtle.forward(y)
+    turtle.right(180)
+    turtle.forward(40)
+    turtle.color("black", "red")
+    turtle.begin_fill()
+    turtle.pendown()
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(80)
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.end_fill()
+    turtle.penup()
+    turtle.home()
+
+
+def draw_ball(x, y):
+    # function to draw ball at (x, y)
+    turtle.penup()
+    turtle.forward(x)
+    turtle.left(90)
+    turtle.forward(y)
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.left(90)
+    turtle.pendown()
+    turtle.color("black", "blue")
+    turtle.begin_fill()
+    turtle.circle(40)
+    turtle.end_fill()
+    turtle.penup()
+    turtle.home()
+
+def main():
+    # the screen settings
+    turtle.screensize(968, 638)
+    turtle.bgpic("shape_window.png")
+
+    # draw the square and circle
+    draw_square(0, 0)
+    draw_circle(0, 0)
+    turtle.clear()
+
+    # draw the box and ball according to the input
+    x1 = float(input("x coordinate for the box: "))
+    y1 = float(input("y coordinate for the box: "))
+    x2 = float(input("x coordinate for the ball: "))
+    y2 = float(input("y coordinate for the ball: "))
+    draw_box(x1, y1)
+    draw_ball(x2, y2)
+    
+if __name__ == "__main__":
+    main()
+    
