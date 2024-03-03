@@ -9,3 +9,5 @@ Homework 4 - Lists & More Loops
 Homework 5 - remix_master.py
 
 Homework 6 - Dictionaries, Files & Exception Handling
+
+Test 1 - Cover Knowledge from Hw1 to Hw5
